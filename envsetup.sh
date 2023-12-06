@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -d "env"]
+if [ -d "env" ]
 then
   echo "python virtual env exists"
 else
@@ -13,7 +13,7 @@ source env/bin/activate
 pip3 install -r requirements.txt
 
 
-if [ -d "logs"]
+if [ -d "logs" ]
 then
   echo "log folder exists"
 else
